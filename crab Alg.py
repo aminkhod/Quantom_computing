@@ -147,27 +147,34 @@ f_ext = "{}_n_ts{}_ptype{}.txt".format(example_name, n_ts, p_type)
 # In this step, the actual optimization is performed. At each iteration the Nelder-Mead algorithm calculates a new set of coefficients that improves the currently worst set among all set of coefficients. For details see [1,2] and a textbook about static search methods. The algorithm continues until one of the termination conditions defined above has been reached. If undesired results are achieved, rerun the algorithm and/or try to change the number of coefficients to be optimized for, as this is a very crucial parameter.
 
 # In[37]:
-
-
-result = cpo.opt_pulse_crab_unitary(H_d, H_c, psi_0, psi_targ, n_ts, evo_time, 
-                fid_err_targ=fid_err_targ, 
-                max_iter=max_iter, max_wall_time=max_wall_time, 
-                init_coeff_scaling=5.0, num_coeffs=2,
-                method_params={'xtol':1e-3},
-                guess_pulse_type='SINE', guess_pulse_action='modulate',
-                out_file_ext=f_ext,
-                log_level=log_level, gen_stats=True)
-
+fid_list = []
+func_call_list = []
+for max_fid_func_calls in range(200):
+    result = cpo.opt_pulse_crab_unitary(H_d, H_c, psi_0, psi_targ, n_ts, evo_time,
+                    fid_err_targ=fid_err_targ,
+                    max_iter=max_iter, max_wall_time=max_wall_time,
+                    init_coeff_scaling=5.0, num_coeffs=2,
+                    method_params={'xtol':1e-3},
+                    guess_pulse_type='SINE', guess_pulse_action='modulate',
+                    out_file_ext=f_ext,
+                    log_level=log_level, gen_stats=True)
+    fid_list.append(result.fid_err)
+    func_call_list.append(result.stats.num_fidelity_func_calls)
 # ### Report the results
 
 # Firstly the performace statistics are reported, which gives a breakdown of the processing times. In this example it can be seen that the majority of time is spent calculating the propagators, i.e. exponentiating the combined Hamiltonian.
-# 
+#
 # The optimised U(T) is reported as the 'final evolution', which is essentially the string representation of the Qobj that holds the full time evolution at the point when the optimisation is terminated.
-# 
+#
 # The key information is in the summary (given last). Here the final fidelity is reported and the reason for termination of the algorithm.
 
 # In[32]:
 
+import pandas as pd
+myframe = []
+myframe = pd.DataFrame(myframe)
+myframe['fidelityError'], myframe['numberFidelityFunctionCalls'] = fid_list, func_call_list
+myframe.to_csv('buf.csv')
 
 result.stats.report()
 print("Final evolution\n{}\n".format(result.evo_full_final))

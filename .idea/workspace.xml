@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="852746aa-985e-4318-b906-c0242bbe3da5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/crab Alg.py" beforeDir="false" afterPath="$PROJECT_DIR$/crab Alg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ctrl_amps_final_2qubitInteract_n_ts100_ptypeSINE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ctrl_amps_final_2qubitInteract_n_ts100_ptypeSINE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ctrl_amps_initial_2qubitInteract_n_ts100_ptypeSINE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ctrl_amps_initial_2qubitInteract_n_ts100_ptypeSINE.txt" afterDir="false" />
     </list>
@@ -84,35 +85,40 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="11" />
+          <entry key="py" value="12" />
+          <entry key="txt" value="1" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="11" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="12" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="564" />
+          <entry key="py" value="873" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="564" />
+          <entry key="Python" value="873" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crab Alg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="172" selection-start-line="172" selection-end-line="172" />
+            <state relative-caret-position="171">
+              <caret line="151" column="35" selection-start-line="151" selection-start-column="35" selection-end-line="151" selection-end-column="35" />
+              <folding>
+                <element signature="e#1217#1235#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python36/Lib/site-packages/qutip/control/pulseoptim.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="509" column="25" lean-forward="true" selection-start-line="509" selection-start-column="25" selection-end-line="509" selection-end-column="25" />
+            <state relative-caret-position="158">
+              <caret line="1855" column="36" lean-forward="true" selection-start-line="1855" selection-start-column="36" selection-end-line="1855" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -129,17 +135,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python36/Lib/site-packages/qutip/control/optimizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="1265" column="66" selection-start-line="1265" selection-start-column="66" selection-end-line="1265" selection-end-column="66" />
+            <state relative-caret-position="102">
+              <caret line="1225" column="26" selection-start-line="1225" selection-start-column="20" selection-end-line="1225" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python36/Lib/site-packages/scipy/optimize/optimize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="490" lean-forward="true" selection-start-line="490" selection-end-line="490" />
+            <state relative-caret-position="154">
+              <caret line="619" selection-start-line="619" selection-end-line="619" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -151,13 +157,20 @@
       <find>max_iter</find>
       <find>optim</find>
       <find>fid</find>
-      <find>tc</find>
       <find>fid_err</find>
       <find>'buf</find>
       <find>n_ts</find>
       <find>num_tslot_recompute</find>
       <find>creat</find>
       <find>stat</find>
+      <find>maxfev</find>
+      <find>fmin</find>
+      <find>run_optimization</find>
+      <find>max_fid_func_calls</find>
+      <find>term_conds</find>
+      <find>tc</find>
+      <find>num_fid_func_calls</find>
+      <find>maxfun</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,13 +180,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Ghorbani.py" />
-        <option value="$PROJECT_DIR$/crab Alg.py" />
         <option value="C:/Program Files/Python36/Lib/site-packages/qutip/control/optimizer.py" />
+        <option value="C:/Program Files/Python36/Lib/site-packages/qutip/control/pulseoptim.py" />
         <option value="C:/Program Files/Python36/Lib/site-packages/scipy/optimize/optimize.py" />
+        <option value="$PROJECT_DIR$/crab Alg.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="26" />
     <option name="width" value="1366" />
     <option name="height" value="742" />
@@ -304,21 +318,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19323671" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25925925" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.35748792" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38164252" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50074404" side_tool="true" weight="0.3494364" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -359,33 +372,38 @@
       <breakpoints>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://C:/Program Files/Python36/Lib/site-packages/qutip/control/pulseoptim.py</url>
-          <line>1925</line>
+          <line>1926</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://C:/Program Files/Python36/Lib/site-packages/qutip/control/pulseoptim.py</url>
-          <line>1963</line>
+          <line>1964</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://C:/Program Files/Python36/Lib/site-packages/qutip/control/pulseoptim.py</url>
-          <line>1965</line>
+          <line>1966</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/crab Alg.py</url>
-          <line>171</line>
+          <line>178</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/crab Alg.py</url>
-          <line>172</line>
+          <line>179</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://C:/Program Files/Python36/Lib/site-packages/qutip/control/optimizer.py</url>
           <line>1231</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/crab Alg.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -452,31 +470,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crab Alg.py">
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/qutip/control/pulseoptim.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="172" selection-start-line="172" selection-end-line="172" />
+        <state relative-caret-position="158">
+          <caret line="1855" column="36" lean-forward="true" selection-start-line="1855" selection-start-column="36" selection-end-line="1855" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/qutip/control/optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="1265" column="66" selection-start-line="1265" selection-start-column="66" selection-end-line="1265" selection-end-column="66" />
+        <state relative-caret-position="102">
+          <caret line="1225" column="26" selection-start-line="1225" selection-start-column="20" selection-end-line="1225" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/qutip/control/pulseoptim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="509" column="25" lean-forward="true" selection-start-line="509" selection-start-column="25" selection-end-line="509" selection-end-column="25" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ctrl_amps_final_2qubitInteract_n_ts100_ptypeSINE.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/scipy/optimize/optimize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="490" lean-forward="true" selection-start-line="490" selection-end-line="490" />
+        <state relative-caret-position="154">
+          <caret line="619" selection-start-line="619" selection-end-line="619" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crab Alg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="151" column="35" selection-start-line="151" selection-start-column="35" selection-end-line="151" selection-end-column="35" />
+          <folding>
+            <element signature="e#1217#1235#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
