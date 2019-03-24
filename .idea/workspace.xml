@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="852746aa-985e-4318-b906-c0242bbe3da5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/crab Alg.py" beforeDir="false" afterPath="$PROJECT_DIR$/crab Alg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ctrl_amps_final_2qubitInteract_n_ts100_ptypeSINE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ctrl_amps_final_2qubitInteract_n_ts100_ptypeSINE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ctrl_amps_initial_2qubitInteract_n_ts100_ptypeSINE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ctrl_amps_initial_2qubitInteract_n_ts100_ptypeSINE.txt" afterDir="false" />
     </list>
@@ -114,8 +113,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crab Alg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="220" selection-start-line="220" selection-end-line="223" />
+            <state relative-caret-position="181">
+              <caret line="161" column="48" selection-start-line="161" selection-start-column="43" selection-end-line="161" selection-end-column="48" />
               <folding>
                 <element signature="e#1217#1235#0" expanded="true" />
               </folding>
@@ -171,6 +170,7 @@
       <find>num_fid_func_calls</find>
       <find>maxfun</find>
       <find>tc</find>
+      <find>fidel</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -226,7 +226,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.crab Alg">
+  <component name="RunManager" selected="Python.Carb Alg2">
+    <configuration name="Carb Alg2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Ghorbani" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Carb Alg2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Ghorbani" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Ghorbani" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -294,9 +315,11 @@
       <item itemvalue="Python.Ghorbani" />
       <item itemvalue="Python.crab Alg" />
       <item itemvalue="Python.pulseoptim" />
+      <item itemvalue="Python.Carb Alg2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Carb Alg2" />
         <item itemvalue="Python.crab Alg" />
         <item itemvalue="Python.pulseoptim" />
         <item itemvalue="Python.Ghorbani" />
@@ -325,7 +348,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.35748792" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" weight="0.46698874" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38164252" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -497,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crab Alg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="220" selection-start-line="220" selection-end-line="223" />
+        <state relative-caret-position="181">
+          <caret line="161" column="48" selection-start-line="161" selection-start-column="43" selection-end-line="161" selection-end-column="48" />
           <folding>
             <element signature="e#1217#1235#0" expanded="true" />
           </folding>
