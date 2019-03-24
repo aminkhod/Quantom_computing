@@ -156,7 +156,7 @@ for max_fid_func_calls in range(200):
                     init_coeff_scaling=5.0, num_coeffs=2,
                     method_params={'xtol':1e-3},
                     guess_pulse_type='SINE', guess_pulse_action='modulate',
-                    out_file_ext=f_ext,
+                    # out_file_ext=f_ext,
                     log_level=log_level, gen_stats=True)
     fid_list.append(result.fid_err)
     func_call_list.append(result.stats.num_fidelity_func_calls)
@@ -218,9 +218,9 @@ plt.show()
 # In[34]:
 
 
-from qutip.ipynbtools import version_table
-
-version_table()
+# from qutip.ipynbtools import version_table
+#
+# version_table()
 
 
 # ### References

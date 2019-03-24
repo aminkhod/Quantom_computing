@@ -114,8 +114,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crab Alg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="151" column="35" selection-start-line="151" selection-start-column="35" selection-end-line="151" selection-end-column="35" />
+            <state relative-caret-position="368">
+              <caret line="220" selection-start-line="220" selection-end-line="223" />
               <folding>
                 <element signature="e#1217#1235#0" expanded="true" />
               </folding>
@@ -126,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python36/Lib/site-packages/qutip/control/pulseoptim.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="1855" column="36" lean-forward="true" selection-start-line="1855" selection-start-column="36" selection-end-line="1855" selection-end-column="36" />
+            <state relative-caret-position="379">
+              <caret line="1137" column="41" selection-start-line="1137" selection-start-column="41" selection-end-line="1137" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -168,9 +168,9 @@
       <find>run_optimization</find>
       <find>max_fid_func_calls</find>
       <find>term_conds</find>
-      <find>tc</find>
       <find>num_fid_func_calls</find>
       <find>maxfun</find>
+      <find>tc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -187,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="26" />
     <option name="width" value="1366" />
     <option name="height" value="742" />
@@ -318,6 +318,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -470,13 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/qutip/control/pulseoptim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="1855" column="36" lean-forward="true" selection-start-line="1855" selection-start-column="36" selection-end-line="1855" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/qutip/control/optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -494,10 +488,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/qutip/control/pulseoptim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="1137" column="41" selection-start-line="1137" selection-start-column="41" selection-end-line="1137" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crab Alg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="151" column="35" selection-start-line="151" selection-start-column="35" selection-end-line="151" selection-end-column="35" />
+        <state relative-caret-position="368">
+          <caret line="220" selection-start-line="220" selection-end-line="223" />
           <folding>
             <element signature="e#1217#1235#0" expanded="true" />
           </folding>
