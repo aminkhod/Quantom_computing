@@ -115,7 +115,7 @@ evo_time = np.pi
 
 
 # Fidelity error target
-fid_err_targ = 1e-2
+fid_err_targ = 1e-10
 # Maximum iterations for the optisation algorithm
 max_iter = 500
 # Maximum (elapsed) time allowed in seconds
@@ -151,7 +151,7 @@ fid_list = []
 func_call_list = []
 # for max_fid_func_calls in range(200):
 result = cpo.opt_pulse_crab_unitary(H_d, H_c, psi_0, psi_targ, n_ts, evo_time,
-                fid_err_targ=fid_err_targ,
+                # fid_err_targ=fid_err_targ,
                 max_iter=max_iter, max_wall_time=max_wall_time,
                 init_coeff_scaling=5.0, num_coeffs=2,
                 method_params={'xtol':1e-3},
